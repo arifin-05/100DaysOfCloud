@@ -14,16 +14,16 @@
 Fill in your details where you see this icon ✍️
 We have provided a sample Day Journey entry staring at 0. You can delete this example.
 
-## [✍️ Your Name]'s Cloud Journey
+## Miftakhul Arifin's Cloud Journey
 
-[✍️ Introduce yourself]
+Introducing my name is Miftakhul Arifin, you can call me Arifin, I am a student majoring in TKJ from SMKN 1 Nglegok. I am a beginner who wants to learn new things about IT.
 
-[✍️ Tell us why you started this challenge]
+The reason I took part in this event was to deepen my knowledge of the Cloud world and also to improve the skills I had learned.
 
-[✍️ Tell us where you want to be at the end of the challenge]
+The purpose of me participating in this event is so that I can develop my knowledge and skills in the Cloud field. And hopefully I can finish this event with satisfactory results.
 
-- [✍️ Link to your Twitter](https://twitter.com/username)
-- [✍️ Link to your LinkedIn](https://www.linkedin.com/in/username)
+- [ Link to my Blogger](https://cahblitaran.blogspot.com)
+- [ Link to my Linkedin](https://www.linkedin.com/in/username)
 
 ## Stepping out the door
 
