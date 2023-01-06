@@ -96,8 +96,7 @@ Actually, the Linux command is an application that is not equipped with a GUI di
 		
 
 ## Next Steps
-		
-✍️ Describe what you think you think you want to do next.
+Introduction to Cloud Computing
 		
 ## Social Proof
 		
