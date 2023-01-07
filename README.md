@@ -27,8 +27,8 @@ The purpose of me participating in this event is so that I can develop my knowle
 
 ## Stepping out the door
 
-- [ ] ☁️ 1 > [My First Day](Journey/001/Readme.md)
-- [ ] ☁️ 2 > [](Journey/002/Readme.md)
+- [ ] ☁️ 1 > [Meet 1](Journey/001/Readme.md)
+- [ ] ☁️ 2 > [Introduction to Cloud Computing](Journey/002/Readme.md)
 - [ ] ☁️ 3 > [](Journey/003/Readme.md)
 - [ ] ☁️ 4 > [](Journey/004/Readme.md)
 - [ ] ☁️ 5 > [](Journey/005/Readme.md)
