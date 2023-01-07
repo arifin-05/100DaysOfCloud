@@ -23,7 +23,7 @@ The reason I took part in this event was to deepen my knowledge of the Cloud wor
 The purpose of me participating in this event is so that I can develop my knowledge and skills in the Cloud field. And hopefully I can finish this event with satisfactory results.
 
 - [ Link to my Blogger](https://cahblitaran.blogspot.com)
-- [ Link to my Linkedin](https://www.linkedin.com/in/username)
+- [ Link to my Linkedin](https://www.linkedin.com/in/miftakhul-arifin-880155235)
 
 ## Stepping out the door
 
