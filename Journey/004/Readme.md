@@ -1,52 +1,85 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# AWS Access Keys, CLI and SDK
 
-# New post title here
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Access keys are long-term credentials for an IAM user or the AWS account root user. You can use access keys to sign programmatic requests to the AWS CLI or AWS API (directly or using the AWS SDK). The journey goes something like this :
 
-## Prerequisite
+    1. Users Can Access AWS.
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+    2. Explanation of the AWS CLI.
 
-## Use Case
+    3. A Description of the AWS SDK.
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+### 1. How Users Can Access AWS?
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+  • To access AWS, you have three options:
 
-### Step 1 — Summary of Step
+      • AWS Management Console (protected by password + MFA)
 
-![Screenshot](https://via.placeholder.com/500x300)
+      • AWS Command Line Interface (CLI): protected by access keys
 
-### Step 1 — Summary of Step
+      • AWS Software Developer Kit (SDK) - for code: protected by access keys
 
-![Screenshot](https://via.placeholder.com/500x300)
+  • Access Keys are generated through the AWS Console
 
-### Step 3 — Summary of Step
+  • Users manage their own access keys
 
-![Screenshot](https://via.placeholder.com/500x300)
+  • Access Keys are secret, just like a password. Don't share them
 
-## ☁️ Cloud Outcome
+  • Access Key ID ~= username
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+  • Secret Access Key password
 
-## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+
+### 2. What's the AWS CLI?
+
+  • A tool that enables you to interact with AWS services using commands in your command-line shell
+
+  • Direct access to the public APIs of AWS services
+
+  • You can develop scripts to manage your resources
+
+  • It's open-source https://github.com/aws/aws-cli
+
+  • Alternative to using AWS Management Console
+   
+![cli aws](https://user-images.githubusercontent.com/121140952/211148728-482dbc77-8b88-4836-b251-2230cfe26476.png)
+
+
+
+### 3. What's the AWS SDK?
+
+  • AWS Software Development Kit (AWS SDK)
+
+  • Language-specific APIs (set of libraries)
+
+  • Enables you to access and manage AWS services programmatically
+
+  • Embedded within your application
+
+  • Supports
+
+      • SDKs (JavaScript, Python, PHP, .NET, Ruby, Java, Go, Node.js, C++)
+
+      • Mobile SDKs (Android, iOS,...)
+
+      • IoT Device SDKs (Embedded C, Arduino, ...)
+
+  • Example: AWS CLI is built on AWS SDK for Python
+
+![aws-sdk 1](https://user-images.githubusercontent.com/121140952/211148769-75af28d1-2c2b-4475-a9ad-6ea50550cd9c.png)
+
+
+
+## Next Teps
+
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+https://cahblitaran.blogspot.com/
