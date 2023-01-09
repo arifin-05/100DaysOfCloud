@@ -31,7 +31,7 @@ The purpose of me participating in this event is so that I can develop my knowle
 - [ ] ☁️ 2 > [Introduction to Cloud Computing](Journey/002/Readme.md)
 - [ ] ☁️ 3 > [IAM Users and Groups in AWS (Identity and Access Management Part 1)](Journey/003/Readme.md)
 - [ ] ☁️ 4 > [AWS Access Keys, CLI and SDK (Identity and Access Management Part 2)](Journey/004/Readme.md)
-- [ ] ☁️ 5 > [IAM Roles For AWS & IAM Securrity Tools (Identity and Access Management Part 3)](Journey/005/Readme.md)
+- [ ] ☁️ 5 > [IAM Roles For AWS & IAM Security Tools (Identity and Access Management Part 3)](Journey/005/Readme.md)
 - [ ] ☁️ 6 > [](Journey/006/Readme.md)
 - [ ] ☁️ 7 > [](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [](Journey/008/Readme.md)
