@@ -1,45 +1,90 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# IAM Guidilines & Best Practices, Shared Responsibility Model for IAM, and  IAM Summary.
+
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+• IAM Guidilines & Best Practices 
 
-## Prerequisite
+• Shared Responsibility Model for IAM 
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+• IAM Summary
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+### IAM Guidilines & Best Practices 
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+• Don't use the root account except for AWS account setup
 
-### Step 1 — Summary of Step
+• One physical user = One AWS user
 
-![Screenshot](https://via.placeholder.com/500x300)
+• Assign users to groups and assign permissions to groups
 
-### Step 1 — Summary of Step
+• Create a strong password policy
 
-![Screenshot](https://via.placeholder.com/500x300)
+• Use and enforce the use of Multi Factor Authentication (MFA)
 
-### Step 3 — Summary of Step
+• Create and use Roles for giving permissions to AWS services
 
-![Screenshot](https://via.placeholder.com/500x300)
+• Use Access Keys for Programmatic Access (CLI/SDK)
 
-## ☁️ Cloud Outcome
+• Audit permissions of your account with the IAM Credentials Report
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+• Never share IAM users & Access Keys
+
+
+
+### Shared Responsibility Model for IAM
+
+
+
+![aws](https://user-images.githubusercontent.com/121140952/211448974-e036af0a-3682-4526-a538-2056005164d4.png)
+
+
+• Infrastructure (global network security)
+
+• Configuration and vulnerability analysis
+
+• Compliance validation
+
+
+
+![you](https://user-images.githubusercontent.com/121140952/211448997-d2e4f814-2511-4d46-80c2-968ce5661f2a.png)
+
+
+• Users, Groups, Roles, Policies management and monitoring
+
+• Enable MFA on all accounts
+
+• Rotate all your keys often
+
+• Use IAM tools to apply appropriate permissions
+
+• Analyze access patterns & review permissions
+
+### IAM Summary
+
+
+• Users: mapped to a physical user, has a password for AWS Console
+
+• Groups: contains users only
+
+• Policies: JSON document that outlines permissions for users or groups
+
+• Roles: for EC2 instances or AWS services
+
+• Security: MFA + Password Policy
+
+• AWS CLI: manage your AWS services using the command-line
+
+• AWS SDK: manage your AWS services using a programming language
+
+• Access Keys: access AWS using the CLI or SDK
+
+• Audit: IAM Credential Reports & IAM Access Advisor
+
+
 
 ## Next Steps
 
@@ -47,6 +92,4 @@
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+https://cahblitaran.blogspot.com/
