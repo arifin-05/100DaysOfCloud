@@ -34,7 +34,7 @@ The purpose of me participating in this event is so that I can develop my knowle
 - [ ] ☁️ 5 > [IAM Roles For AWS Services & IAM Security Tools (Identity and Access Management Part 3)](Journey/005/Readme.md)
 - [ ] ☁️ 6 > [Learn Linux Fundamentals  + Exam in the Aguna Course](Journey/006/Readme.md)
 - [ ] ☁️ 7 > [(Identity and Access Management Part 4)](Journey/007/Readme.md)
-- [ ] ☁️ 8 > [EC2 Basics (Elastic Compute Cloud)](Journey/008/Readme.md)
+- [ ] ☁️ 8 > [EC2 Basics (Elastic Compute Cloud Part 1)](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [](Journey/009/Readme.md)
 - [ ] ☁️ 10 > [](Journey/010/Readme.md)
 
