@@ -1,45 +1,70 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Bascis EC2
 
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+### Amazon EC2
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+1. EC2 is one of the most popular of AWS' offering
 
-### Step 1 — Summary of Step
+2. EC2 = Elastic Compute Cloud Infrastructure as a Service
 
-![Screenshot](https://via.placeholder.com/500x300)
+3. It mainly consists in the capability of:
 
-### Step 1 — Summary of Step
+    • Renting virtual machines (EC2)
+    
+    • Storing data on virtual drives (EBS)
+    
+    • Distributing load across machines (ELB)
+    
+    • Scaling the services using an auto-scaling group (ASG)
 
-![Screenshot](https://via.placeholder.com/500x300)
+4. Knowing EC2 is fundamental to understand how the Cloud works
 
-### Step 3 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+### EC2 sizing & configuration options
 
-## ☁️ Cloud Outcome
+1. Operating System (OS): Linux, Windows or Mac OS
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+2. How much compute power & cores (CPU)
+
+3. How much random-access memory (RAM)
+
+4. How much storage space:
+    
+    • Network-attached (EBS & EFS)
+    
+    • hardware (EC2 Instance Store)
+
+5. Network card: speed of the card, Public IP address
+
+6. Firewall rules: security group
+
+7. Bootstrap script (configure at first launch): EC2 User Data
+
+
+### EC2 User Data
+
+1. It is possible to bootstrap our instances using an EC2 User data script.
+
+2. bootstrapping means launching commands when a machine starts
+
+3. That script is only run once at the instance first start
+
+4. EC2 user data is used to automate boot tasks such as:
+    
+    • Installing updates
+    
+    • Installing software
+    
+    • Downloading common files from the internet
+    
+    • Anything you can think of
+
+5. The EC2 User Data Script runs with the root user
+
 
 ## Next Steps
 
@@ -47,6 +72,4 @@
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+https://cahblitaran.blogspot.com
