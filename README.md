@@ -40,7 +40,7 @@ The purpose of me participating in this event is so that I can develop my knowle
 
 ## Walking down the road
 
-- [ ] ☁️ 11 > [SSH Overview (Elastic Compute Cloud Part 4)](Journey/011/Readme.md)
+- [x] ☁️ 11 > [SSH Overview (Elastic Compute Cloud Part 4)](Journey/011/Readme.md)
 - [ ] ☁️ 12 > [](Journey/012/Readme.md)
 - [ ] ☁️ 13 > [](Journey/013/Readme.md)
 - [ ] ☁️ 14 > [](Journey/014/Readme.md)
