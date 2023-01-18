@@ -27,20 +27,20 @@ The purpose of me participating in this event is so that I can develop my knowle
 
 ## Stepping out the door
 
-- [ ] ☁️ 1 > [Virtualization & Linux Fundamental (Meet 1)](Journey/001/Readme.md)
-- [ ] ☁️ 2 > [Introduction to Cloud Computing](Journey/002/Readme.md)
-- [ ] ☁️ 3 > [IAM Users and Groups in AWS (Identity and Access Management Part 1)](Journey/003/Readme.md)
-- [ ] ☁️ 4 > [AWS Access Keys, CLI and SDK (Identity and Access Management Part 2)](Journey/004/Readme.md)
-- [ ] ☁️ 5 > [IAM Roles For AWS Services & IAM Security Tools (Identity and Access Management Part 3)](Journey/005/Readme.md)
-- [ ] ☁️ 6 > [Learn Linux Fundamentals  + Exam in the Aguna Course](Journey/006/Readme.md)
-- [ ] ☁️ 7 > [(Identity and Access Management Part 4)](Journey/007/Readme.md)
-- [ ] ☁️ 8 > [EC2 Basics (Elastic Compute Cloud Part 1)](Journey/008/Readme.md)
-- [ ] ☁️ 9 > [EC2 Instance Types Basics(Elastic Compute Cloud Part 2)](Journey/009/Readme.md)
+- [x] ☁️ 1 > [Virtualization & Linux Fundamental (Meet 1)](Journey/001/Readme.md)
+- [x] ☁️ 2 > [Introduction to Cloud Computing](Journey/002/Readme.md)
+- [x] ☁️ 3 > [IAM Users and Groups in AWS (Identity and Access Management Part 1)](Journey/003/Readme.md)
+- [x] ☁️ 4 > [AWS Access Keys, CLI and SDK (Identity and Access Management Part 2)](Journey/004/Readme.md)
+- [x] ☁️ 5 > [IAM Roles For AWS Services & IAM Security Tools (Identity and Access Management Part 3)](Journey/005/Readme.md)
+- [x] ☁️ 6 > [Learn Linux Fundamentals  + Exam in the Aguna Course](Journey/006/Readme.md)
+- [x] ☁️ 7 > [(Identity and Access Management Part 4)](Journey/007/Readme.md)
+- [x] ☁️ 8 > [EC2 Basics (Elastic Compute Cloud Part 1)](Journey/008/Readme.md)
+- [x] ☁️ 9 > [EC2 Instance Types Basics(Elastic Compute Cloud Part 2)](Journey/009/Readme.md)
 - [x] ☁️ 10 > [Security Groups & Classic Ports Overview (Elastic Compute Cloud Part 3)](Journey/010/Readme.md)
 
 ## Walking down the road
 
-- [ ] ☁️ 11 > [](Journey/011/Readme.md)
+- [ ] ☁️ 11 > [SSH Overview (Elastic Compute Cloud Part 4)](Journey/011/Readme.md)
 - [ ] ☁️ 12 > [](Journey/012/Readme.md)
 - [ ] ☁️ 13 > [](Journey/013/Readme.md)
 - [ ] ☁️ 14 > [](Journey/014/Readme.md)
