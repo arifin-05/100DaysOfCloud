@@ -36,7 +36,7 @@ The purpose of me participating in this event is so that I can develop my knowle
 - [ ] ☁️ 7 > [(Identity and Access Management Part 4)](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [EC2 Basics (Elastic Compute Cloud Part 1)](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [EC2 Instance Types Basics(Elastic Compute Cloud Part 2)](Journey/009/Readme.md)
-- [ ] ☁️ 10 > [Security Groups & Classic Ports Overview (Elastic Compute Cloud Part 3)](Journey/010/Readme.md)
+- [x] ☁️ 10 > [Security Groups & Classic Ports Overview (Elastic Compute Cloud Part 3)](Journey/010/Readme.md)
 
 ## Walking down the road
 
