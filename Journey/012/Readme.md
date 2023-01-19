@@ -19,7 +19,6 @@
 
   
   - We will see how we can configure OpenSSH ~/.ssh/config to facilitate the SSH into our EC2 instances
-
   - How to SSH into your EC2 Instance
 
 
