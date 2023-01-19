@@ -1,45 +1,35 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# How to SSH using Linux or Mac and Windows
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- How to SSH into your EC2 Instance Linux or MAC
+- How to SSH into your EC2 Instance Windows
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- How to SSH into your EC2 Instance 
 
-## Try yourself
+#### Linux/ Mac OS X
+  
+  - We'll learn how to SSH into your EC2 instance using Linux / Mac
+  - SSH is one of the most important function. It allows you to control a remote machine, all using the command line.
+  
+  ![image](https://user-images.githubusercontent.com/121140952/213335297-9403fe85-1625-43df-ba38-059a74272f10.png)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+  
+  - We will see how we can configure OpenSSH ~/.ssh/config to facilitate the SSH into our EC2 instances
 
-### Step 1 — Summary of Step
+- How to SSH into your EC2 Instance
+#### Windows
 
-![Screenshot](https://via.placeholder.com/500x300)
+  - We'll learn how to SSH into your EC2 instance using Windows<br>
+  - SSH is one of the most important function. It allows you to control a remote machine, all using the command line.
+ 
+![image](https://user-images.githubusercontent.com/121140952/213335466-680422b3-b8d8-454b-a211-76bd823a925b.png)
 
-### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+  - We will configure all the required parameters necessary for doing SSH on Windows using the free tool Putty.
 
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
 
 ## Next Steps
 
