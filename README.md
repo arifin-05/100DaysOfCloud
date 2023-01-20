@@ -41,7 +41,7 @@ The purpose of me participating in this event is so that I can develop my knowle
 ## Walking down the road
 
 - [x] ☁️ 11 > [SSH Overview (Elastic Compute Cloud Part 4)](Journey/011/Readme.md)
-- [x] ☁️ 12 > [How to SSH using Linux or Mac (Identity and Access Management Part 5)](Journey/012/Readme.md)
+- [x] ☁️ 12 > [How to SSH using Linux or Mac And Windows (Identity and Access Management Part 5)](Journey/012/Readme.md)
 - [ ] ☁️ 13 > [](Journey/013/Readme.md)
 - [ ] ☁️ 14 > [](Journey/014/Readme.md)
 - [ ] ☁️ 15 > [](Journey/015/Readme.md)
