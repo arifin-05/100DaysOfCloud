@@ -154,7 +154,7 @@ Convertible + Scheduled), Dedicated Host, Dedicated Instance
 
 ## Next Steps
 
-EC2 Instance Storage Section
+- EC2 Instance Storage Section
 
 ## Social Proof
 https://cahbitaran.blogspot.com/
