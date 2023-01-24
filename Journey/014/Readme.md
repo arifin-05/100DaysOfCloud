@@ -122,9 +122,82 @@
 - Backups and Replication are your responsibility 
 
 
+### EFS – Elastic File System 
+
+-Managed NFS (network file system) that can be mounted on 100s of EC2
+-EFS works with Linux EC2 instances in multi-AZ
+-Highly available, scalable, expensive (3x gp2), pay per use, no capacity planning
+
+
+### EFS Infrequent Access (EFS-IA) 
+
+-Storage class that is cost-optimized for files not accessed every day 
+-Up to 92% lower cost compared to EFS Standard 
+-EFS will automatically move your files to EFS-IA based on the last time they were accessed 
+-Enable EFS-IA with a Lifecycle Policy 
+-Example: move files that are not accessed for 60 days to EFS-IA 
+-Transparent to the applications accessing EFS
+
+
+### Shared Responsibility Model for EC2 Storage
+ 
+ 
+ 
+- Infrastructure
+- Replication for data for EBS volumes & EFS drives
+- Replacing faulty hardware
+- Ensuring their employees cannot access your data
+
+ 
+- Setting up backup / snapshot procedures
+- Setting up data encryption
+- Responsibility of any data on the drives
+- Understanding the risk of using EC2 Instance Store
+
+
+### Amazon FSx – Overview
+
+- Launch 3rd party high-performance file systems on AWS
+- Fully managed service
+
+
+### Amazon FSx for Windows File Server
+
+- A fully managed, highly reliable, and scalable Windows native shared file system
+- Built on Windows File Server
+- Supports SMB protocol & Windows NTFS
+- Integrated with Microsoft Active Directory
+- Can be accessed from AWS or your on-premise infrastructure
+
+
+### Amazon FSx for Lustre 
+
+- A fully managed, high-performance, scalable file storage for High Performance Computing (HPC)
+- The name Lustre is derived from “Linux” and “cluster” 
+- Machine Learning, Analytics, Video Processing, Financial Modeling, …
+- Scales up to 100s GB/s, millions of IOPS, sub-ms latencies
+
+
+### EC2 Instance Storage – Summary
+
+- EBS volumes: 
+  - network drives attached to one EC2 instance at a time
+  - Mapped to an Availability Zones
+  - Can use EBS Snapshots for backups / transferring EBS volumes across AZ
+- AMI: create ready-to-use EC2 instances with our customizations
+- EC2 Image Builder: automatically build, test and distribute AMIs
+- EC2 Instance Store:
+  - High performance hardware disk attached to our EC2 instance
+  - Lost if our instance is stopped / terminated
+- EFS: network file system, can be attached to 100s of instances in a region
+- EFS-IA: cost-optimized storage class for infrequent accessed files
+- FSx for Windows: Network File System for Windows servers
+- FSx for Lustre: High Performance Computing Linux file system
+
+
 ## Next Steps
 
-- EC2 Instance Storage (Part 2)
+- Elastic Load Balancing & Auto Scaling Groups Section
 
 
 ## Social Proof
@@ -132,4 +205,4 @@
 
 ## Date
 
-- January 24, 2023
+- January 23, 2023
