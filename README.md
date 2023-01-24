@@ -44,7 +44,7 @@ The purpose of me participating in this event is so that I can develop my knowle
 - [x] ☁️ 12 > [How to SSH using Linux or Mac And Windows (Elastic Compute Cloud Part 5)](Journey/012/Readme.md)
 - [x] ☁️ 13 > [EC2 Instance Purchasing Options (Elastic Compute Cloud Part 6) ](Journey/013/Readme.md)
 - [x] ☁️ 14 > [EC2 Instance Storage](Journey/014/Readme.md)
-- [ ] ☁️ 15 > [](Journey/015/Readme.md)
+- [x] ☁️ 15 > [ELB & ASG - Elastic Load Balancing & Auto Scaling Groups](Journey/015/Readme.md)
 - [ ] ☁️ 16 > [](Journey/016/Readme.md)
 - [ ] ☁️ 17 > [](Journey/017/Readme.md)
 - [ ] ☁️ 18 > [](Journey/018/Readme.md)
