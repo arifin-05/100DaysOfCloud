@@ -1,5 +1,4 @@
-# (EC2 Instance Storage Part 1)
-
+# EC2 Instance Storage
 
 ## Introduction
 
