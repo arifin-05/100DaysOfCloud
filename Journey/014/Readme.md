@@ -124,14 +124,11 @@
 
 ## Next Steps
 
-(EC2 Instance Storage Part 1)
+- EC2 Instance Storage (Part 2)
 
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
 
 ## Date
 
