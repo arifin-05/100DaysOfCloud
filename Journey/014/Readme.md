@@ -49,7 +49,7 @@
 
 ![image](https://user-images.githubusercontent.com/121140952/214186924-dbbbc0eb-6062-4f60-91d8-768ac27bb031.png)
 
-US -EAST-1B
+- US -EAST-1B
 
 ![image](https://user-images.githubusercontent.com/121140952/214187015-547604a8-b202-4ef5-8593-680443cf1497.png)
 
