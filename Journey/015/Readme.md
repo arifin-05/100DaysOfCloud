@@ -4,6 +4,7 @@
 
 ## Introduction
 
+
 - Scalability & High Availability
 - Vertical Scalability
 - Horizontal Scalability
