@@ -45,7 +45,7 @@ The purpose of me participating in this event is so that I can develop my knowle
 - [x] ☁️ 13 > [EC2 Instance Purchasing Options (Elastic Compute Cloud Part 6) ](Journey/013/Readme.md)
 - [x] ☁️ 14 > [EC2 Instance Storage](Journey/014/Readme.md)
 - [x] ☁️ 15 > [Elastic Load Balancing & Auto Scaling Groups Section (Part 1)](Journey/015/Readme.md)
-- [ ] ☁️ 16 > [](Journey/016/Readme.md)
+- [x] ☁️ 16 > [ Elastic Load Balancing & Auto Scaling Groups Section (Part 2)](Journey/016/Readme.md)
 - [ ] ☁️ 17 > [](Journey/017/Readme.md)
 - [ ] ☁️ 18 > [](Journey/018/Readme.md)
 - [ ] ☁️ 19 > [](Journey/019/Readme.md)
