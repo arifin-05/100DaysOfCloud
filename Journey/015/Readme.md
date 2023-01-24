@@ -25,6 +25,7 @@
 
 ### Scalability & High Availability
 
+
 - Scalability means that an application / system can handle greater loads by adapting.
 - There are two kinds of scalability:
 - Vertical Scalability
@@ -36,6 +37,7 @@
 
 ### Vertical Scalability
 
+
 - Vertical Scalability means increasing the size of the instance
 - For example, your application runs on at2.micro
 - Scaling that application vertically means running it on a t2.large
@@ -45,6 +47,7 @@
 
 ### Horizontal Scalability
 
+
 - Horizontal Scalability means increasing the number of instances / systems for your application
 - Horizontal scaling implies distributed systems.
 - This is very common for web applications / modern applications
@@ -53,12 +56,14 @@
 
 ### High Availability
 
+
 - High Availability usually goes hand in hand with horizontal scaling
 - High availability means running your application / system in at least 2 Availability Zones
 - The goal of high availability is to survive a data center loss (disaster)
 
 
 ### High Availability & Scalability For EC2
+
 
 - Vertical Scaling: Increase instance size (= scale up / down)
   - From: t2.nano - 0.5G of RAM, 1 vCPU
@@ -73,6 +78,7 @@
 
 ### Scalability vs Elasticity (vs Agility)
 
+
 - Scalability: ability to accommodate a larger load by making the hardware stronger (scale up), or by adding nodes (scale out)
 - Elasticity: once a system is scalable, elasticity means that there will be some “auto-scaling” so that the system can scale based on the load. This
 is “cloud-friendly”: pay-per-use, match demand, optimize costs
@@ -82,10 +88,12 @@ is “cloud-friendly”: pay-per-use, match demand, optimize costs
 
 ### What is load balancing?
 
+
 - Load balancers are servers that forward internet traffic to multiple servers (EC2 Instances) downstream.
 
 
 ### Why use a load balancer?
+
 
 - Spread load across multiple downstream instances
 - Expose a single point of access (DNS) to your application
@@ -96,6 +104,7 @@ is “cloud-friendly”: pay-per-use, match demand, optimize costs
 
 
 ### Why use an Elastic Load Balancer?
+
 
 - An ELB (Elastic Load Balancer) is a managed load balancer
   - AWS guarantees that it will be working
@@ -111,6 +120,7 @@ is “cloud-friendly”: pay-per-use, match demand, optimize costs
 
 ### Application Load Balancer
 
+
 - HTTP / HTTPS / gRPC
 - protocols (Layer 7)
 - HTTP Routing features
@@ -118,6 +128,7 @@ is “cloud-friendly”: pay-per-use, match demand, optimize costs
 
 
 ### Network Load Balancer
+
 
 - TCP / UDP protocols (Layer 4)
 - High Performance: millions of request per seconds
@@ -127,11 +138,14 @@ is “cloud-friendly”: pay-per-use, match demand, optimize costs
 
 ## Next Steps
 
+
 - Elastic Load Balancing & Auto Scaling Groups Section (Part 2)
 
 
 ## Social Proof
 
+
 ## Date
+
 
 - January 24, 2023
