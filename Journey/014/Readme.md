@@ -15,6 +15,14 @@
 - EC2 Image Builder
 - EC2 Instance Store
 
+- EFS – Elastic File System
+- EFS Infrequent Access (EFS-IA)
+- Shared Responsibility Model for EC2 Storage
+- Amazon FSx – Overview
+- Amazon FSx for Windows File Server
+- Amazon FSx for Lustre
+- EC2 Instance Storage - Summary
+
 
 ## Cloud Research
 
