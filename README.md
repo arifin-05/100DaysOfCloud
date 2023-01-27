@@ -47,7 +47,7 @@ The purpose of me participating in this event is so that I can develop my knowle
 - [x] ☁️ 15 > [Elastic Load Balancing & Auto Scaling Groups Section (Part 1)](Journey/015/Readme.md)
 - [x] ☁️ 16 > [Elastic Load Balancing & Auto Scaling Groups Section (Part 2)](Journey/016/Readme.md)
 - [X] ☁️ 17 > [Amazon S3 (Part 1)](Journey/017/Readme.md)
-- [ ] ☁️ 18 > [Amazon S3 (Part 2)](Journey/018/Readme.md)
+- [X] ☁️ 18 > [Amazon S3 (Part 2)](Journey/018/Readme.md)
 - [ ] ☁️ 19 > [](Journey/019/Readme.md)
 - [ ] ☁️ 20 > [](Journey/020/Readme.md)
 
