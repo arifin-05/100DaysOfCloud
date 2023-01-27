@@ -119,7 +119,7 @@
 ## Next Steps
 
 
-- Databases & Analystics
+- Databases & Analytics
 
 
 ## Date
