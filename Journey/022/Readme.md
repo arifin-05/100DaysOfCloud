@@ -1,52 +1,108 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Other Compute (Part 2)
 
-# New post title here
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
+- Amazon API Gateway
+- AWS Bath
+- Batch vs Lambda
+- Amazon Lightsail
+- Other Compute - SUmmary
+- Lambda - SUmmary
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+### #1. Amazon API Gateway
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+- Example: building a serverless API
 
-![Screenshot](https://via.placeholder.com/500x300)
+![image](https://user-images.githubusercontent.com/121140952/217696475-7038aa4d-279e-4ca7-afe9-2a6f0b1027a5.png)
 
-### Step 1 — Summary of Step
+- Fully managed service for developers to easily create, publish, maintain, monitor, and secure APIs
+- Serverless and scalable
+- Supports RESTful APIs and WebSocket APIs
+- Support for security, user authentication, API throttling, API keys, monitoring... 
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
+### #2. AWS Bath
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-## ☁️ Cloud Outcome
+- Fully managed batch processing at any scale
+- Efficiently run 100,000s of computing batch jobs on AWS
+- A “batch” job is a job with a start and an end (opposed to continuous)
+- Batch will dynamically launch EC2 instances or Spot Instances
+- AWS Batch provisions the right amount of compute / memory
+- You submit or schedule batch jobs and AWS Batch does the rest!
+- Batch jobs are defined as Docker images and run on ECS
+- Helpful for cost optimizations and focusing less on the infrastructure
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+
+### #3. Batch vs Lambda
+
+
+- Lambda:
+    - Time limit
+    - Limited runtimes
+    - Limited temporary disk space
+    - Serverless
+
+
+- Batch:
+    - No time limit- Any runtime as long as it’s packaged as a Docker image
+    - Rely on EBS / instance store for disk space
+    - Relies on EC2 (can be managed by AWS)
+
+
+### #4. Amazon Lightsail
+
+
+- Virtual servers, storage, databases, and networking
+- Low & predictable pricing
+- Simpler alternative to using EC2, RDS, ELB, EBS, Route 53…
+- Great for people with little cloud experience!
+- Can setup notifications and monitoring of your Lightsail resources
+- Use cases:
+    - Simple web applications (has templates for LAMP, Nginx, MEAN, Node.js…)
+    - Websites (templates for WordPress, Magento, Plesk, Joomla)
+    - Dev / Test environment
+- Has high availability but no auto-scaling, limited AWS integrations
+
+
+### #5. Other Compute - SUmmary
+
+
+- Docker: container technology to run applications
+- ECS: run Docker containers on EC2 instances
+- Fargate:
+    - Run Docker containers without provisioning the infrastructure
+    - Serverless offering (no EC2 instances)
+- ECR: Private Docker Images Repository
+- Batch: run batch jobs on AWS across managed EC2 instances
+- Lightsail: predictable & low pricing for simple application & DB stacks
+
+
+### #6. Lambda - SUmmary
+
+
+- Lambda is Serverless, Function as a Service, seamless scaling, reactive
+- Lambda Billing:
+    - By the time run x by the RAM provisioned
+    - By the number of invocations
+- Language Support: many programming languages except (arbitrary) Docker
+- Invocation time: up to 15 minutes
+- Use cases:
+    - Create Thumbnails for images uploaded onto S3
+    - Run a Serverless cron job
+    - API Gateway: expose Lambda functions as HTTP API
+
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- Deploying and Managing Infrastructure at Scale
 
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+## Date
+- February 10, 2023
