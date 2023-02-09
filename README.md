@@ -54,7 +54,7 @@ The purpose of me participating in this event is so that I can develop my knowle
 ## Crossing the bridge
 
 - [X] ☁️ 21 > [Other Compute (Part 1)](Journey/021/Readme.md)
-- [ ] ☁️ 22 > [](Journey/022/Readme.md)
+- [X] ☁️ 22 > [Other Compute (Part 2)](Journey/022/Readme.md)
 - [ ] ☁️ 23 > [](Journey/023/Readme.md)
 - [ ] ☁️ 24 > [](Journey/024/Readme.md)
 - [ ] ☁️ 25 > [](Journey/025/Readme.md)
