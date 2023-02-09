@@ -56,7 +56,7 @@ The purpose of me participating in this event is so that I can develop my knowle
 - [X] ☁️ 21 > [Other Compute (Part 1)](Journey/021/Readme.md)
 - [X] ☁️ 22 > [Other Compute (Part 2)](Journey/022/Readme.md)
 - [X] ☁️ 23 > [Deploying and Managing Infrastructure at Scale (Part 1)](Journey/023/Readme.md)
-- [ ] ☁️ 24 > [](Journey/024/Readme.md)
+- [X] ☁️ 24 > [Deploying and Managing Infrastructure at Scale (Part 2)](Journey/024/Readme.md)
 - [ ] ☁️ 25 > [](Journey/025/Readme.md)
 - [ ] ☁️ 26 > [](Journey/026/Readme.md)
 - [ ] ☁️ 27 > [](Journey/027/Readme.md)
