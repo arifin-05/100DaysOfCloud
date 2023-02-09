@@ -34,7 +34,7 @@
 - Scale containers up and down very quickly (seconds)
 
 
-### # Where Docker images are stored?
+### #2. Where Docker images are stored?
 
 
 - Docker images are stored in Docker Repositories
@@ -45,14 +45,14 @@
 - Private: Amazon ECR (Elastic Container Registry)
 
 
-### # Docker versus Virtual Machines
+### #3. Docker versus Virtual Machines
 
 
 - Docker is ”sort of” a virtualization technology, but not exactly
 - Resources are shared with the host => many containers on one server
 
 
-### # ECS
+### #4. ECS
 
 
 - ECS = Elastic Container Service
@@ -62,7 +62,7 @@
 - Has integrations with the Application Load Balancer
 
 
-### # Fargate
+### #5. Fargate
 
 
 - Launch Docker containers on AWS
@@ -72,7 +72,7 @@
 - AWS just runs containers for you based on the CPU / RAM you need
 
 
-### # ECR
+### #6. ECR
 
 
 - Elastic Container Registry
@@ -80,7 +80,7 @@
 - This is where you store your Docker images so they can be run by ECS or Fargate
 
 
-### # What’s serverless?
+### #7. What’s serverless?
 
 
 - Serverless is a new paradigm in which the developers don’t have to manage servers anymore…
@@ -92,7 +92,7 @@
 it means you just don’t manage / provision / see them
 
 
-### # Why AWS Lambda
+### #8. Why AWS Lambda
 
 #### 1. Amazon EC2
 
@@ -110,7 +110,7 @@ it means you just don’t manage / provision / see them
 - Scaling is automated! 
 
 
-### # Benefits of AWS Lambda
+### #9. Benefits of AWS Lambda
 
 
 - Easy Pricing:
@@ -124,7 +124,7 @@ it means you just don’t manage / provision / see them
 - Increasing RAM will also improve CPU and network!
 
 
-### # AWS Lambda language support
+### #10. AWS Lambda language support
 
 
 - Node.js (JavaScript)
