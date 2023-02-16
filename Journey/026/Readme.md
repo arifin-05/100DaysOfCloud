@@ -64,7 +64,7 @@
 
 ## Next Steps
 
-- AWS WaveLength, AWS Local Zones, Global Applications in AWS - Summary
+- Meet 3 | Setting Adapter, IP Address, Hostname, Host.
 
 ## Date
 
