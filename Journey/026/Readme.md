@@ -1,52 +1,71 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Global Infrastructure (Part 2)
 
-# New post title here
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
+- AWS Global Accelerator
+- AWS Global Accelerator vs CloudFront
+- AWS Outposts
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+### #1. AWS Global Accelerator
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+- Improve global application availability and performance using the AWS global network
+- Leverage the AWS internal network to optimize the route to your application (60% improvement)
+- 2 Anycast IP are created for your application and traffic is sent through Edge Locations
+- The Edge locations send the traffic to your application
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
+### #2. AWS Global Accelerator vs CloudFront
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
+- They both use the AWS global network and its edge locations around the world
+- Both services integrate with AWS Shield for DDoS protection.
+- CloudFront – Content Delivery Network
+    - Improves performance for your cacheable content (such as images and videos)
+    - Content is served at the edge
 
-![Screenshot](https://via.placeholder.com/500x300)
+- Global Accelerator
+    - No caching, proxying packets at the edge to applications running in one or more AWS Regions.
+    - Improves performance for a wide range of applications over TCP or UDP
+    - Good for HTTP use cases that require static IP addresses
+    - Good for HTTP use cases that required deterministic, fast regional failover
 
-## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+### #3. AWS Outposts
+
+
+- Hybrid Cloud: businesses that keep an on
+- premises infrastructure alongside a cloud infrastructure
+    - Therefore, two ways of dealing with IT systems:
+    - One for the AWS cloud (using the AWS console, CLI, and AWS APIs)
+- One for their on-premises infrastructure
+- AWS Outposts are “server racks” that offers the same AWS infrastructure, services, APIs & tools to build your own applications on-premises just as in the cloud
+- AWS will setup and manage “Outposts Racks” within your on-premises infrastructure and you can start leveraging AWS services on-premises
+- You are responsible for the Outposts Rack physical security
+
+
+### #4. AWS Outposts
+
+
+- Benefits:
+    - Low-latency access to on-premises systems
+    - Local data processing
+    - Data residency
+    - Easier migration from on-premises to the cloud
+    - Fully managed service
+- Some services that work on Outposts:
+
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- AWS WaveLength, AWS Local Zones, Global Applications in AWS - Summary
 
-## Social Proof
+## Date
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+- February 16, 2023
