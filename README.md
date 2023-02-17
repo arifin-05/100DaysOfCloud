@@ -60,7 +60,8 @@ The purpose of me participating in this event is so that I can develop my knowle
 - [X] ☁️ 25 > [Global Infrastructure (Part 1)](Journey/025/Readme.md)
 - [X] ☁️ 26 > [AWS Global Accelerator, VS Cloudfront, And AWS Outpost](Journey/026/Readme.md)
 - [X] ☁️ 27 > [Meet 3 | Understanding Linux](Journey/027/Readme.md)
-- [ ] ☁️ 28 > [](Journey/028/Readme.md)
+- [X] ☁️ 28 > [AWS Outposts, AWS WaveLength, AWS Local Zones, Global Applications in AWS - Summary
+](Journey/028/Readme.md)
 - [ ] ☁️ 29 > [](Journey/029/Readme.md)
 - [ ] ☁️ 30 > [](Journey/030/Readme.md)
 
