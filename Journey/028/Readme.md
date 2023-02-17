@@ -1,52 +1,85 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# AWS Outposts, AWS WaveLength, AWS Local Zones, Global Applications in AWS - Summary
 
-# New post title here
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
+- AWS Outposts
+- AWS WaveLength
+- AWS Local Zones
+- Global Applications in AWS - Summary
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+### #1. AWS Outposts
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+- Benefits:
+- Low-latency access to on-premises systems
+- Local data processing
+- Data residency
+- Easier migration from on-premises to the cloud
+- Fully managed service
+- Some services that work on Outposts:
+    - Amazon EC2, EBS, S3, EKS, ECS, RDS, EMR.
 
-![Screenshot](https://via.placeholder.com/500x300)
+### #2. AWS WaveLength
 
-### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+- WaveLength Zones are infrastructure deployments embedded within the telecommunications providers’ datacenters at the edge of the 5G networks
+- Brings AWS services to the edge of the 5G networks
+- Example: EC2, EBS, VPC…
+- Ultra-low latency applications through 5G networks
+- Traffic doesn’t leave the Communication Service Provider’s (CSP) network
+- High-bandwidth and secure connection to the parent AWS Region
+- No additional charges or service agreements
+- Use cases: Smart Cities, ML-assisted diagnostics, Connected Vehicles, Interactive Live Video Streams, AR/VR, Real-time Gaming, …
 
-### Step 3 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+### #3. AWS Local Zones
 
-## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+- Places AWS compute, storage, database, and other selected AWS services closer to end users to run latency-sensitive applications
+- Extend your VPC to more locations – “Extension of an AWS Region”
+- Compatible with EC2, RDS, ECS, EBS, ElastiCache, Direct Connect …
+- Example:
+    - AWS Region: N. Virginia (us-east-1)
+    - AWS Local Zones: Boston, Chicago, Dallas, Houston, Miami, …
+
+
+### #4. Global Applications in AWS - Summary
+
+
+- Global DNS: Route 53
+    - Great to route users to the closest deployment with least latency
+    - Great for disaster recovery strategies
+- Global Content Delivery Network (CDN): CloudFront
+    - Replicate part of your application to AWS Edge Locations – decrease latency
+    - Cache common requests – improved user experience and decreased latency
+- S3 Transfer Acceleration
+    - Accelerate global uploads & downloads into Amazon S3
+- AWS Global Accelerator
+    - Improve global application availability and performance using the AWS global network
+
+- AWS Outposts
+    - Deploy Outposts Racks in your own Data Centers to extend AWS services
+- AWS WaveLength
+    - Brings AWS services to the edge of the 5G networks
+    - Ultra-low latency applications
+- AWS Local Zones
+    - Bring AWS resources (compute, database, storage, …) closer to your users
+    - Good for latency-sensitive applications
+
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
 
-## Social Proof
+- Cloud Integration (Part 1)
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+## Date
+
+
+- 17.2.2023
