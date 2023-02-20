@@ -62,7 +62,7 @@ The purpose of me participating in this event is so that I can develop my knowle
 - [X] ☁️ 27 > [Meet 3 | Understanding Linux](Journey/027/Readme.md)
 - [X] ☁️ 28 > [AWS Outposts, AWS WaveLength, AWS Local Zones, Global Applications in AWS - Summary
 ](Journey/028/Readme.md)
-- [ ] ☁️ 29 > [](Journey/029/Readme.md)
+- [X] ☁️ 29 > [Cloud Integration](Journey/029/Readme.md)
 - [ ] ☁️ 30 > [](Journey/030/Readme.md)
 
 ## Into the bushy, thorny forest
