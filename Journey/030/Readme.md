@@ -1,52 +1,67 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# Cloud Integration
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
+- Amazon SNS
+- Amazon MQ
+- Integration - Summary 
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+### #1. Amazon SNS
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+- The “event publishers” only sends message to one SNS topic
+- As many “event subscribers” as we want to listen to the SNS topic notifications
+- Each subscriber to the topic will get all the messages
+- Up to 12,500,000 subscriptions per topic, 100,000 topics limit
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
+### #2. Amazon MQ
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
+- SQS, SNS are “cloud-native” services: proprietary protocols from AWS
+- Traditional applications running from on-premises may use open protocols such as: MQTT, AMQP, STOMP, Openwire, WSS
+- When migrating to the cloud, instead of re-engineering the application to use SQS and SNS, we can use Amazon MQ
+- Amazon MQ is a managed message broker service for
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-## ☁️ Cloud Outcome
+![image](https://user-images.githubusercontent.com/121140952/220231278-8b5d16f7-bcf2-4b21-b877-49aee93731aa.png)
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+
+- Amazon MQ doesn’t “scale” as much as SQS / SNS
+- Amazon MQ runs on servers, can run in Multi-AZ with failover
+- Amazon MQ has both queue feature (~SQS) and topic features (~SNS)
+
+
+### #3. Cloud Integration - Summary
+
+
+- SQS:
+    - Queue service in AWS
+    - Multiple Producers, messages are kept up to 14 days
+    - Multiple Consumers share the read and delete messages when done
+    - Used to decouple applications in AWS
+- SNS:
+    - Notification service in AWS
+    - Subscribers: Email, Lambda, SQS, HTTP, Mobile…
+    - Multiple Subscribers, send all messages to all of them
+    - No message retention
+- Kinesis: real-time data streaming, persistence and analysis
+- Amazon MQ: managed message broker for ActiveMQ and RabbitMQ in the cloud (MQTT, AMQP.. protocols)
+
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
 
-## Social Proof
+- Cloud Monitoring
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+## Date
+
+
+- February 21, 2023
+
