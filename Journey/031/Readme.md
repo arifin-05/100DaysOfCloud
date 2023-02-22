@@ -1,52 +1,90 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Cloud Monitoring
 
-# New post title here
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
+- Amazon CloudWatch Metrics
+- Important Metrics 
+- Amazon CloudWatch Alarms
+- Amazon CloudWatch Logs
+- CloudWatch Logs for EC2
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+### #1. Amazon CloudWatch Metrics
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+- CloudWatch provides metrics for every services in AWS
+- Metric is a variable to monitor (CPUUtilization, NetworkIn…)
+- Metrics have timestamps
+- Can create CloudWatch dashboards of metrics
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
+### #2. Important Metrics 
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
+- EC2 instances: CPU Utilization, Status Checks, Network (not RAM)
+    - Default metrics every 5 minutes
+    - Option for Detailed Monitoring ($$$): metrics every 1 minute
+- EBS volumes: Disk Read/Writes
+- S3 buckets: BucketSizeBytes, NumberOfObjects, AllRequests
+- Billing:Total Estimated Charge (only in us-east-1)
+- Service Limits: how much you’ve been using a service API
+- Custom metrics: push your own metrics
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-## ☁️ Cloud Outcome
+### #3. Amazon CloudWatch Alarms
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+
+- Alarms are used to trigger notifications for any metric
+- Alarms actions…
+    - Auto Scaling: increase or decrease EC2 instances “desired” count
+    - EC2 Actions: stop, terminate, reboot or recover an EC2 instance
+    - SNS notifications: send a notification into an SNS topic
+- Various options (sampling, %, max, min, etc…)
+- Can choose the period on which to evaluate an alarm
+- Example: create a billing alarm on the CloudWatch Billing metric
+- Alarm States: OK. INSUFFICIENT_DATA, ALARM
+
+
+### #4. Amazon CloudWatch Logs
+
+
+- CloudWatch Logs can collect log from:
+    - Elastic Beanstalk: collection of logs from application
+    - ECS: collection from containers
+    - AWS Lambda: collection from function logs
+    - CloudTrail based on filter
+    - CloudWatch log agents: on EC2 machines or on-premises servers
+    - Route53: Log DNS queries
+
+- Enables real-time monitoring of logs
+- Adjustable CloudWatch Logs retention
+
+
+### #5. CloudWatch Logs for EC2
+
+
+- By default, no logs from your EC2 instance will go to CloudWatch
+- You need to run a CloudWatch agent on EC2 to push the log files you want
+- Make sure IAM permissions are correct
+- The CloudWatch log agent can be setup on-premises too
+
+
+![image](https://user-images.githubusercontent.com/121140952/220506930-5c238e19-8bde-48c1-a6b1-944d6073e4bf.png)
+
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
 
-## Social Proof
+- AWS CloudTrail,  AWS X-Ray, AWS X Ray advantages, Amazon CodeGuru.
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+## Date
+
+
+- February 22, 2023.
+
