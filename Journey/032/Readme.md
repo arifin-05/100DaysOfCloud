@@ -1,52 +1,83 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Cloud Monitoring (Part 1)
 
-# New post title here
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
+- Amazon EventBridge Rules
+- Amazon EventBridge
+- AWS CloudTrail
+- AWS X-Ray
+- AWS X Ray advantages
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+### #1. Amazon EventBridge Rules
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+![image](https://user-images.githubusercontent.com/121140952/220841259-91bf696b-aafb-499b-9697-8e9d0a510c03.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
+### #2. Amazon EventBridge
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
+- Schema Registry: model event schema
+- You can archive events (all/filter) sent to an event bus (indefinitely or set period)
+- Ability to replay archived events
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-## ☁️ Cloud Outcome
+### #3.  AWS CloudTrail
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+
+- Provides governance, compliance and audit for your AWS Account
+- CloudTrail is enabled by default!
+- Get an history of events / API calls made within your AWS Account by:
+    - Console
+    - SDK
+    - CLI
+    - AWS Services
+- Can put logs from CloudTrail into CloudWatch Logs or S3
+- A trail can be applied to All Regions (default) or a single Region.
+- If a resource is deleted in AWS, investigate CloudTrail first!
+
+
+### #4. AWS X-Ray 
+
+
+- Debugging in Production, the good old way:
+    - Test locally
+    - Add log statements everywhere
+    - Re-deploy in production
+- Log formats differ across applications and log analysis is hard.
+- Debugging: one big monolith “easy”, distributed services “hard”
+- No common views of your entire architecture
+
+- Enter… AWS X-Ray!
+
+
+### #5. AWS X Ray advantages
+
+
+- Troubleshooting performance (bottlenecks)
+- Understand dependencies in a microservice architecture
+- Pinpoint service issues
+- Review request behavior
+- Find errors and exceptions
+- Are we meeting time SLA?
+- Where I am throttled?
+- Identify users that are impacted 
+
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
 
-## Social Proof
+- Cloud Monitoring (Part 3)
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+## Date
+
+
+- February 23, 2023
+
