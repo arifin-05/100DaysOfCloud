@@ -1,52 +1,81 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# VPC
+
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
+- VPC & Subnets Primer
+- Internet Gateway & NAT Gateways
+- Network ACL & Security Groups
+- Network ACLs vs Security Groups
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+### #1. VPC & Subnets Primer
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+- VPC -Virtual Private Cloud: private network to deploy your resources (regional resource)
+- Subnets allow you to partition your network inside your VPC (Availability Zone resource)
+- A public subnet is a subnet that is accessible from the internet
+- A private subnet is a subnet that is not accessible from the internet
+- To define access to the internet and between subnets, we use Route Tables.
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
+### #2. Internet Gateway & NAT Gateways
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
+- Internet Gateways helps our VPC instances connect with the internet
+- Public Subnets have a route to the internet gateway.
 
-![Screenshot](https://via.placeholder.com/500x300)
+- NAT Gateways (AWS-managed) & NAT Instances (self-managed) allow your instances in your Private Subnets to access the internet while remaining private.
 
-## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+### #3. Network ACL & Security Groups
+
+
+- NACL (Network ACL)
+    - A firewall which controls traffic from and to subnet
+    - Can have ALLOW and DENY rules
+    - Are attached at the Subnet level
+    - Rules only include IP addresses
+
+- Security Groups
+    - A firewall that controls traffic to and from an ENI / an EC2 Instance
+    - Can have only ALLOW rules
+    - Rules include IP addresses and other security groups
+
+
+### #4. Network ACLs vs Security Groups
+
+##### Security Group
+
+- Operates at the instance level
+- Supports allow rules only
+- Is stateful: Return traffic is automatically allowed, regardless of any rules 
+- We evaluate all rules before deciding whether to allow traffic 
+- Applies to an instance only if someone specifies the security group when launching the instance, or associates the security group with the instance later on
+
+
+##### Network ACL
+
+- Operates at the subnet level
+- Supports allow rules and deny rules
+- Is stateless: Return traffic must be explicitly allowed by rules
+- We process rules in number order when deciding whether to allow traffic
+- Automatically applies to all instances in the subnets it's associated with (therefore, you don't have to rely on users to specify the security group)
+
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
 
-## Social Proof
+- VPC Part 2 (VPC Flow Logs, VPC Peering, VPC Endpoints, AWS PrivateLink [VPC Endpoint Services]).
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+## Date
+
+
+- February 27, 2023
+
