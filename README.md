@@ -72,7 +72,7 @@ The purpose of me participating in this event is so that I can develop my knowle
 - [X] ☁️ 33 > [Cloud Monitoring Part 3](Journey/033/Readme.md)
 - [X] ☁️ 34 > [VPC Part 1](Journey/034/Readme.md)
 - [X] ☁️ 35 > [Meet4 - IAM [ Create User & Group ]](Journey/035/Readme.md)
-- [ ] ☁️ 36 > [](Journey/036/Readme.md)
+- [X] ☁️ 36 > [VPC Part 2](Journey/036/Readme.md)
 - [ ] ☁️ 37 > [](Journey/037/Readme.md)
 - [ ] ☁️ 38 > [](Journey/038/Readme.md)
 - [ ] ☁️ 39 > [](Journey/039/Readme.md)
