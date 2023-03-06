@@ -1,52 +1,69 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# VPC Part 3
 
-# New post title here
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
+- Site-to-Site VPN
+- AWS Client VPN
+- Transit Gateway
+- VPC Closing Comments
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+### #1. Site-to-Site VPN
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+• On-premises: must use a Customer Gateway (CGW)
+• AWS: must use a Virtual Private Gateway (VGW)
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
+### #2. AWS Client VPN
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
+• Connect from your computer using OpenVPN to your private network in AWS and on-premises
+• Allow you to connect to your EC2 instances over a private IP (just as if you were in the private VPC network)
+• Goes over public Internet
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-## ☁️ Cloud Outcome
+### #3. Transit Gateway
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+
+• For having transitive peering between thousands of VPC and on -premises, hub-and-spoke (star) connection
+• One single Gateway to provide this functionality
+• Works with Direct Connect Gateway, VPN connections
+
+
+### #4. VPC Closing Comments
+
+
+
+• VPC: Virtual Private Cloud
+• Subnets:Tied to an AZ, network partition of the VPC
+• Internet Gateway: at the VPC level, provide Internet Access
+• NAT Gateway / Instances: give internet access to private subnets
+• NACL: Stateless, subnet rules for inbound and outbound
+• Security Groups: Stateful, operate at the EC2 instance level or ENI
+• VPC Peering: Connect two VPC with non overlapping IP ranges, nontransitive
+• VPC Endpoints: Provide private access to AWS Services within VPC
+• PrivateLink: Privately connect to a service in a 3rd party VPC
+• VPC Flow Logs: network traffic logs
+• Site to Site VPN: VPN over public internet between on-premises DC and AWS
+• Client VPN: OpenVPN connection from your computer into your VPC
+• Direct Connect: direct private connection to AWS
+• Transit Gateway: Connect thousands of VPC and on-premises networks together
+
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
 
-## Social Proof
+- Security & Compliance
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+## Date
+
+
+- March 6, 2023
+
