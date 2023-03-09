@@ -75,7 +75,7 @@ The purpose of me participating in this event is so that I can develop my knowle
 - [X] ☁️ 36 > [VPC Part 2](Journey/036/Readme.md)
 - [X] ☁️ 37 > [VPC Part 3](Journey/037/Readme.md)
 - [X] ☁️ 38 > [Security & Compliance Part 1](Journey/038/Readme.md)
-- [ ] ☁️ 39 > [](Journey/039/Readme.md)
+- [X] ☁️ 39 > [Security & Compliance Part 2](Journey/039/Readme.md)
 - [ ] ☁️ 40 > [](Journey/040/Readme.md)
 
 ## Trekking the dunes
