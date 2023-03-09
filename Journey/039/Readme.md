@@ -1,52 +1,108 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Security & Compliance Part 2
 
-# New post title here
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
+- CloudHSM 
+- Types of CMK
+- AWS Certificate Manager (ACM)
+- AWS Secrets Manager
+- AWS Artifact
+- Amazon GuardDuty
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+### #1. CloudHSM
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+- KMS => AWS manages the software for encryption
+- CloudHSM => AWS provisions encryption hardware
+- Dedicated Hardware (HSM = Hardware Security Module)
+- You manage your own encryption keys entirely (not AWS)
+- HSM device is tamper resistant, FIPS 140 -2 Level 3 compliance
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
+### #2. Types of CMK (Customer Master Keys)
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
+- Customer Managed CMK:
+    - Create, manage and used by the customer, can enable or disable
+    - Possibility of rotation policy (new key generated every year, old key preserved)
+    - Possibility to bring-your-own-key
+- AWS managed CMK:
+    - Created, managed and used on the customer’s behalf by AWS
+    - Used by AWS services (aws/s3, aws/ebs, aws/redshift)
+- AWS owned CMK:
+    - Collection of CMKs that an AWS service owns and manages to use in multiple accounts
+    - AWS can use those to protect resources in your account (but you can’t view the keys)
+- CloudHSM Keys (custom keystore):
+    - Keys generated from your own CloudHSM hardware device
+    - Cryptographic operations are performed within the CloudHSM cluster
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-## ☁️ Cloud Outcome
+### #3. AWS Certificate Manager (ACM)
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+
+- Let’s you easily provision, manage, and deploy SSL/TLS Certificates
+- Used to provide in-flight encryption for websites (HTTPS)
+- Supports both public and private TLS certificates
+- Free of charge for public TLS certificates
+- Automatic TLS certificate renewal
+- Integrations with (load TLS certificates on)
+- Elastic Load Balancers
+- CloudFront Distributions
+- APIs on API Gateway
+
+
+### #4. AWS Secrets Manager
+
+
+- Newer service, meant for storing secrets
+- Capability to force rotation of secrets every X days
+- Automate generation of secrets on rotation (uses Lambda)
+- Integration with Amazon RDS (MySQL, PostgreSQL, Aurora)
+- Secrets are encrypted using KMS
+- Mostly meant for RDS integration
+
+
+### #5. AWS Artifact
+
+
+- Portal that provides customers with on-demand access to AWS compliance documentation and AWS agreements
+- Artifact Reports - Allows you to download AWS security and compliance documents from third-party auditors, like AWS ISO certifications, Payment Card Industry (PCI), and System and Organization Control (SOC) reports
+- Artifact Agreements - Allows you to review, accept, and track the status of AWS agreements such as the Business Associate Addendum (BAA) or the Health Insurance Portability and Accountability Act (HIPAA) for an individual account or in your organization
+- Can be used to support internal audit or compliance
+
+
+### #6. Amazon GuardDuty
+
+
+- Intelligent Threat discovery to protect your AWS Account
+- Uses Machine Learning algorithms, anomaly detection, 3rd party data
+- One click to enable (30 days trial), no need to install software
+- Input data includes:
+    - CloudTrail Events Logs – unusual API calls, unauthorized deployments
+     - CloudTrail Management Events – create VPC subnet, create trail, …
+     - CloudTrail S3 Data Events – get object, list objects, delete object, …
+    - VPC Flow Logs – unusual internal traffic, unusual IP address
+    - DNS Logs – compromised EC2 instances sending encoded data within DNS queries
+    - Kubernetes Audit Logs – suspicious activities and potential EKS cluster compromises
+- Can setup EventBridge rules to be notified in case of findings
+- EventBridge rules can target AWS Lambda or SNS
+- Can protect against CryptoCurrency attacks (has a dedicated “finding” for it)
+
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
 
-## Social Proof
+- Security & Compliance Part 3 
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+## Date
+
+
+- March 9, 2023
+
