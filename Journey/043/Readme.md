@@ -1,52 +1,77 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Machine Learning Part 3
 
-# New post title here
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
+- Amazon Kendra
+- Amazon Personalize
+- Amazon Textract
+- Summary
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+### #1. Amazon Kendra
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+- Fully managed document search service powered by Machine Learning
+- Extract answers from within a document (text, pdf, HTML, PowerPoint, MS Word, FAQs…)
+- Natural language search capabilities
+- Learn from user interactions/feedback to promote preferred results (Incremental Learning)
+- Ability to manually fine-tune search results (importance of data, freshness, custom, …)
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
+### #2. Amazon Personalize
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
+- Fully managed ML-service to build apps with real-time personalized recommendations
+- Example: personalized product recommendations/re-ranking, customized direct marketing
+    - Example: User bought gardening tools, provide recommendations on the next one to buy
+- Same technology used by Amazon.com
+- Integrates into existing websites, applications, SMS, email marketing systems, …
+- Implement in days, not months (you don’t need to build, train, and deploy ML solutions)
+- Use cases: retail stores, media and entertainment…
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-## ☁️ Cloud Outcome
+### #3. Amazon Textract
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+
+- Automatically extracts text, handwriting, and data from any scanned documents using AI and ML
+- Extract data from forms and tables
+- Read and process any type of document (PDFs, images, …)
+- Use cases:
+    - Financial Services (e.g., invoices, financial reports)
+    - Healthcare (e.g., medical records, insurance claims)
+    - Public Sector (e.g., tax forms, ID documents, passports
+
+
+### #4. Summary
+
+
+- Rekognition : face detection, labeling, celebrity recognition
+- Transcribe: audio to text (ex: subtitles)
+- Polly: text to audio
+- Translate: translations
+- Lex: build conversational bots – chatbots
+- Connect: cloud contact center
+- Comprehend: natural language processing
+- SageMaker: machine learning for every developer and data scientist
+- Forecast: build highly accurate forecasts
+- Kendra: ML-powered search engine 
+- Personalize: real-time personalized recommendations 
+- Textract: detect text and data in documents
+
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
 
-## Social Proof
+- Account Management, Billing & Support
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+## Date
+
+
+- March 20, 2023
+
