@@ -1,52 +1,68 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Machine Learning Part 1
 
-# New post title here
 
-## Introduction
+## Introduction 
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
+- Amazon Rekognition
+- Amazon Transcribe
+- Amazon Polly
+- Amazon Translate
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+### #1. Amazon Rekognition
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+- Find objects, people, text, scenes in images and videos using ML
+- Facial analysis and facial search to do user verification, people counting
+- Create a database of “familiar faces” or compare against celebrities
+- Use cases:
+    - Labeling
+    - Content Moderation
+    - Text Detection
+    - Face Detection and Analysis (gender, age range, emotions…)
+    - Face Search and Verification
+    - Celebrity Recognition
+    - Pathing (ex: for sports game analysis)
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
+### #2. Amazon Transcribe
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
+- Automatically convert speech to text
+- Uses a deep learning process called automatic speech recognition (ASR) to convert speech to text quickly and accurately
+- Automatically remove Personally Identifiable Information (PII) using Redaction
+- Supports Automatic Language Identification for multi-lingual audio
+- Use cases:
+    - transcribe customer service calls
+    - automate closed captioning and subtitling
+    - generate metadata for media assets to create a fully searchable archive
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-## ☁️ Cloud Outcome
+### #3. Amazon Polly
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+
+- Turn text into lifelike speech using deep learning
+- Allowing you to create applications that talk
+
+
+### #4. Amazon Translate
+
+
+- Natural and accurate language translation
+- Amazon Translate allows you to localize content - such as websites and applications - for international users, and to easily translate large volumes of text efficiently.
+
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
 
-## Social Proof
+- Machine Learning Part 2
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+## Date
 
-[link](link)
+
+- March 20, 2023
+
