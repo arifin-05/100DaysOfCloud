@@ -80,9 +80,9 @@ The purpose of me participating in this event is so that I can develop my knowle
 
 ## Trekking the dunes
 
-- [ ] ☁️ 41 > [Machine Learning Part 1](Journey/041/Readme.md)
-- [ ] ☁️ 42 > [](Journey/042/Readme.md)
-- [ ] ☁️ 43 > [](Journey/043/Readme.md)
+- [X] ☁️ 41 > [Machine Learning Part 1](Journey/041/Readme.md)
+- [X] ☁️ 42 > [Machine Learning Part 2](Journey/042/Readme.md)
+- [X] ☁️ 43 > [Machine Learning Part 3](Journey/043/Readme.md)
 - [ ] ☁️ 44 > [](Journey/044/Readme.md)
 - [ ] ☁️ 45 > [](Journey/045/Readme.md)
 - [ ] ☁️ 46 > [](Journey/046/Readme.md)
