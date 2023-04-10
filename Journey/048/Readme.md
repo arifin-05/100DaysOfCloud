@@ -120,16 +120,72 @@
 
 ![image](https://user-images.githubusercontent.com/121140952/230873939-0dcd940d-f0dc-45f3-ada9-58da47b3b59d.png)
 
-- 
+### Create Static Website
+
+
+- In the properties section, scroll down until you find Static Website Hosting, and click edit
+
+![image](https://user-images.githubusercontent.com/121140952/230874261-6e1d8d48-86ef-4ff7-af35-530691d3ad79.png)
+
+![image](https://user-images.githubusercontent.com/121140952/230874543-5cd5627f-f7fb-45b1-bde0-8d2238e658a0.png)
+
+- Adjust to the image below (if you have an error file then add it but if you don't have it don't need to add it, because I have it I will add it)
+
+![image](https://user-images.githubusercontent.com/121140952/230874575-83fb5b4e-a7bc-49d8-9fe5-6bfd7108b939.png)
+
+- Click save changes
+
+![image](https://user-images.githubusercontent.com/121140952/230874678-a7e0c6c7-4bab-40fc-9497-c154dc8515d9.png)
+
+- Copy the link from our static website
+
+![image](https://user-images.githubusercontent.com/121140952/230874786-9a90440b-f62b-4143-b0a5-af3da4f51c58.png)
+
+- Try accessing it, it will be like this, this is the default view of the content that we take, so we have to edit it first according to our portfolio
+
+![image](https://user-images.githubusercontent.com/121140952/230874912-dee43d4f-956e-4ad1-bf58-a52505db2d3a.png)
+
+- Here I tried to edit and upload again the index.html and others
+
+![image](https://user-images.githubusercontent.com/121140952/230875003-be7eb513-15b8-4afe-b09d-0dd26f39e3ec.png)
+
+![image](https://user-images.githubusercontent.com/121140952/230875113-5008d9e5-f203-419f-87c9-9c68b885355d.png)
+
+![image](https://user-images.githubusercontent.com/121140952/230875268-da1c2864-968e-4977-91e5-55c1912f77d9.png)
+
+![image](https://user-images.githubusercontent.com/121140952/230875305-6c7d02cb-9cbe-4044-9332-5ad1fb6f2f6b.png)
+
+- And try to access it again, it will change like this, Try clicking Curriculum Vitae
+
+![image](https://user-images.githubusercontent.com/121140952/230875331-aee9513b-486b-440e-b25e-6ee69554cb4c.png)
+
+![image](https://user-images.githubusercontent.com/121140952/230875367-0c009545-3189-4536-b9e4-c5a5faa1ffb0.png)
+
+- And successfully opened
+
+![image](https://user-images.githubusercontent.com/121140952/230875434-0d981504-bcc7-4f40-aff6-67cebd362596.png)
+
+- Then here I try to delete the index.html file so if I access it again an error file like this will appear
+
+![image](https://user-images.githubusercontent.com/121140952/230875774-37751428-94a3-49ea-bf46-2aee3399df06.png)
+
+![image](https://user-images.githubusercontent.com/121140952/230875808-0adcc548-7874-43c8-9edf-1a767e1511d3.png)
+
+![image](https://user-images.githubusercontent.com/121140952/230875839-252f6e3d-ac8e-4d61-8907-bceefdfa1cb9.png)
+
+Finished.
+
+
+
 ## Next Steps
 
 
 - Meet 9 - VPC.
 
 
+
 ## Date
 
+
 - Wadnesday, 11 April 2023.
-
-
 
