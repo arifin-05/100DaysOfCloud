@@ -88,13 +88,17 @@ The purpose of me participating in this event is so that I can develop my knowle
 - [X] ☁️ 47 > [Meet 7 - ELB & ASG](Journey/047/Readme.md)
 - [X] ☁️ 48 > [Meet 8 - Create Bucket & Static Website on AWS S3](Journey/048/Readme.md)
 - [X] ☁️ 49 > [Meet 9 - VPC Hands On](Journey/049/Readme.md)
-- [ ] ☁️ 50 > [](Journey/050/Readme.md)
+- [ ] ☁️ 50 > [Account Management, Billing &
+Support (Part 1)](Journey/050/Readme.md)
 
 ## Winding through the canyons
 
-- [ ] ☁️ 51 > [](Journey/051/Readme.md)
-- [ ] ☁️ 52 > [](Journey/052/Readme.md)
-- [ ] ☁️ 53 > [](Journey/053/Readme.md)
+- [ ] ☁️ 51 > [Account Management, Billing &
+Support (Part 2)](Journey/051/Readme.md)
+- [ ] ☁️ 52 > [Account Management, Billing &
+Support (Part 3)](Journey/052/Readme.md)
+- [ ] ☁️ 53 > [Account Management, Billing &
+Support (Part 4)](Journey/053/Readme.md)
 - [ ] ☁️ 54 > [](Journey/054/Readme.md)
 - [ ] ☁️ 55 > [](Journey/055/Readme.md)
 - [ ] ☁️ 56 > [](Journey/056/Readme.md)
