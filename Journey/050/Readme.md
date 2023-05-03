@@ -1,52 +1,62 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Account Management, Billing & Support (Part 1)
 
-# New post title here
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
+- AWS Organizations
+- Service Control Policies (SCP)
+- AWS Control Tower
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+### #1. AWS Organizations
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+- Global service
+- Allows to manage multiple AWS accounts
+- The main account is the master account
+- Cost Benefits:
+    - Consolidated Billing across all accounts - single payment method
+    - Pricing benefits from aggregated usage (volume discount for EC2, S3…)
+    - Pooling of Reserved EC2 instances for optimal savings
+- API is available to automate AWS account creation
+- Restrict account privileges using Service Control Policies (SCP)
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
+### #2. Service Control Policies (SCP)
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
+- Whitelist or blacklist IAM actions
+- Applied at the OU or Account level
+- Does not apply to the Master Account
+- SCP is applied to all the Users and Roles of the Account, including Root user
+- The SCP does not affect service-linked roles
+    - Service-linked roles enable other AWS services to integrate with AWS Organizations and can't be restricted by SCPs.
+- SCP must have an explicit Allow (does not allow anything by default)
+- Use cases:
+    - Restrict access to certain services (for example: can’t use EMR)
+    - Enforce PCI compliance by explicitly disabling services
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-## ☁️ Cloud Outcome
+### 3. AWS Control Tower
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
 
-## Next Steps
+- Easy way to set up and govern a secure and compliant multi-account AWS environment based on best practices
+- Benefits:
+    - Automate the set up of your environment in a few clicks
+    - Automate ongoing policy management using guardrails
+    - Detect policy violations and remediate them
+    - Monitor compliance through an interactive dashboard
+- AWS Control Tower runs on top of AWS Organizations:
+    - It automatically sets up AWS Organizations to organize accounts and implement SCPs (Service Control Policies)
 
-✍️ Describe what you think you think you want to do next.
 
-## Social Proof
+## Date 
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+- Mey 3, 2023.
+
+
