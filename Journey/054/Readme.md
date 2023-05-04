@@ -1,52 +1,68 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Advanced Identity
 
-# New post title here
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
+- AWS STS (SecurityToken Service)
+- Amazon Cognito (simplified)
+- AWS Directory Services
+- AWS IAM Identity Center (successor to AWS Single Sign-On)
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+### #1. AWS STS (SecurityToken Service)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+- Enables you to create temporary, limited- privileges credentials to access your AWS resources
+- Short-term credentials: you configure expiration period
+- Use cases
+    - Identity federation: manage user identities in external systems, and provide them with STS tokens to access AWS resources
+    - IAM Roles for cross/same account access
+    - IAM Roles for Amazon EC2: provide temporary credentials for EC2 instances to access AWS resources
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
+### #2. Amazon Cognito (simplified)
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
+- Identity for your Web and Mobile applications users (potentially millions)
+- Instead of creating them an IAM user, you create a user in Cognito
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-## ☁️ Cloud Outcome
+### #3. AWS Directory Services
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+
+- AWS Managed Microsoft AD
+    - Create your own AD in AWS, manage users locally, supports MFA
+    - Establish “trust” connections with your on- premise AD
+
+- AD Connector
+    - Directory Gateway (proxy) to redirect to on- premise AD, supports MFA
+    - Users are managed on the on-premise AD
+
+- Simple AD
+    - AD-compatible managed directory on AWS
+    - Cannot be joined with on-premise AD
+
+
+### #4. AWS IAM Identity Center (successor to AWS Single Sign-On)
+
+
+- One login (single sign-on) for all your
+    - AWS accounts in AWS Organizations
+    - Business cloud applications (e.g., Salesforce, Box, Microsoft 365, …)
+    - SAML2.0-enabled applications
+    - EC2 Windows Instances
+
+- Identity providers
+    - Built-in identity store in IAM Identity Center
+    - 3rd party: Active Directory (AD), OneLogin, Okta…
+
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
 
-## Social Proof
+- Other AWS Services
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
