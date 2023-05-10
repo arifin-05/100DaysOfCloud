@@ -69,5 +69,5 @@
 ## Next Steps
 
 
-- # Other AWS Services Part 2
+- Other AWS Services Part 2
 
