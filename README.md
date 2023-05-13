@@ -103,7 +103,7 @@ Support (Part 4)](Journey/053/Readme.md)
 - [ ] ☁️ 55 > [Meet 10 - EasyStack Part 1](Journey/055/Readme.md)
 - [ ] ☁️ 56 > [Meet 11 - EasyStack Part 2](Journey/056/Readme.md)
 - [ ] ☁️ 57 > [Other AWS Services Part 1](Journey/057/Readme.md)
-- [ ] ☁️ 58 > [](Journey/058/Readme.md)
+- [ ] ☁️ 58 > [Other AWS Services Part 2](Journey/058/Readme.md)
 - [ ] ☁️ 59 > [](Journey/059/Readme.md)
 - [ ] ☁️ 60 > [](Journey/060/Readme.md)
 
