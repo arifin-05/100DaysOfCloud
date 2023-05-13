@@ -1,52 +1,91 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Other AWS Services Part 3
 
-# New post title here
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
+- AWS Application Discovery Service
+- AWS Application Migration Service (MGN)
+- AWS Fault Injection Simulator (FIS)
+- AWS Step Functions
+- AWS Ground Station
+- Amazon Pinpoint
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+### #1. AWS Application Discovery Service
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+- Plan migration projects by gathering information about on-premises data centers
+- Server utilization data and dependency mapping are important for migrations
 
-![Screenshot](https://via.placeholder.com/500x300)
+- Agentless Discovery (AWS Agentless Discovery Connector)
+    - VM inventory, configuration, and performance history such as CPU, memory, and disk usage
+- Agent-based Discovery (AWS Application Discovery Agent)
+    - System configuration, system performance, running processes, and details of the network connections between systems
+- Resulting data can be viewed within AWS Migration Hub
 
-### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+### #2. AWS Application Migration Service (MGN)
 
-### Step 3 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+- The “AWS evolution” of CloudEndure Migration, replacing AWS Server Migration Service (SMS)
 
-## ☁️ Cloud Outcome
+- Lift-and-shift (rehost) solution which simplify migrating applications to AWS
+- Converts your physical, virtual, and cloud-based servers to run natively on AWS
+- Supports wide range of platforms, Operating Systems, and databases
+- Minimal downtime, reduced costs
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+
+### #3. AWS Fault Injection Simulator (FIS)
+
+
+- A fully managed service for running fault injection experiments on AWS workloads
+- Based on Chaos Engineering – stressing an application by creating disruptive events (e.g., sudden increase in CPU or memory), observing how the system responds, and implementing improvements
+- Helps you uncover hidden bugs and performance bottlenecks
+- Supports the following AWS services: EC2, ECS, EKS, RDS…
+- Use pre-built templates that generate the desired disruptions
+
+
+### #4. AWS Step Functions
+
+
+- Build serverless visual workflow to orchestrate your Lambda functions
+- Features: sequence, parallel, conditions, timeouts, error handling, …
+- Can integrate with EC2, ECS, On
+-premises servers, API Gateway, SQS queues, etc …
+- Possibility of implementing human approval feature
+- Use cases: order fulfillment, data processing, web applications, any workflow
+
+
+### #5. AWS Ground Station
+
+
+- Fully managed service that lets you control satellite communications, process data, and scale your satellite operations
+- Provides a global network of satellite ground stations near AWS regions
+- Allows you to download satellite data to your AWS VPC within seconds
+- Send satellite data to S3 or EC2 instance
+- Use cases: weather forecasting, surface imaging, communications, video broadcasts
+
+
+### #6. Amazon Pinpoint
+
+
+- Scalable 2-way (outbound/inbound) marketing communications service
+- Supports email, SMS, push, voice, and in-app messaging
+- Ability to segment and personalize messages with the right content to customers
+- Possibility to receive replies
+- Scales to billions of messages per day
+- Use cases: run campaigns by sending marketing, bulk, transactional SMS messages
+- Versus Amazon SNS or Amazon SES
+    - In SNS & SES you managed each message's audience, content, and delivery schedule
+    - In Amazon Pinpoint, you create message templates, delivery schedules, highly-targeted segments, and full campaigns
+
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
 
-## Social Proof
+- AWS Architecting & Ecosystem
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
