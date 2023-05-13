@@ -104,8 +104,8 @@ Support (Part 4)](Journey/053/Readme.md)
 - [ ] ☁️ 56 > [Meet 11 - EasyStack Part 2](Journey/056/Readme.md)
 - [ ] ☁️ 57 > [Other AWS Services Part 1](Journey/057/Readme.md)
 - [ ] ☁️ 58 > [Other AWS Services Part 2](Journey/058/Readme.md)
-- [ ] ☁️ 59 > [](Journey/059/Readme.md)
-- [ ] ☁️ 60 > [](Journey/060/Readme.md)
+- [ ] ☁️ 59 > [Other AWS Services Part 3](Journey/059/Readme.md)
+- [ ] ☁️ 60 > [AWS Architecting & Ecosystem](Journey/060/Readme.md)
 
 ## Stumbling through the caves
 
