@@ -88,30 +88,30 @@ The purpose of me participating in this event is so that I can develop my knowle
 - [X] ☁️ 47 > [Meet 7 - ELB & ASG](Journey/047/Readme.md)
 - [X] ☁️ 48 > [Meet 8 - Create Bucket & Static Website on AWS S3](Journey/048/Readme.md)
 - [X] ☁️ 49 > [Meet 9 - VPC Hands On](Journey/049/Readme.md)
-- [ ] ☁️ 50 > [Account Management, Billing &
+- [X] ☁️ 50 > [Account Management, Billing &
 Support (Part 1)](Journey/050/Readme.md)
 
 ## Winding through the canyons
 
-- [ ] ☁️ 51 > [Account Management, Billing &
+- [X] ☁️ 51 > [Account Management, Billing &
 Support (Part 2)](Journey/051/Readme.md)
-- [ ] ☁️ 52 > [Account Management, Billing &
+- [X] ☁️ 52 > [Account Management, Billing &
 Support (Part 3)](Journey/052/Readme.md)
-- [ ] ☁️ 53 > [Account Management, Billing &
+- [X] ☁️ 53 > [Account Management, Billing &
 Support (Part 4)](Journey/053/Readme.md)
-- [ ] ☁️ 54 > [Advanced Identity](Journey/054/Readme.md)
-- [ ] ☁️ 55 > [Meet 10 - EasyStack Part 1](Journey/055/Readme.md)
-- [ ] ☁️ 56 > [Meet 11 - EasyStack Part 2](Journey/056/Readme.md)
-- [ ] ☁️ 57 > [Other AWS Services Part 1](Journey/057/Readme.md)
-- [ ] ☁️ 58 > [Other AWS Services Part 2](Journey/058/Readme.md)
-- [ ] ☁️ 59 > [Other AWS Services Part 3](Journey/059/Readme.md)
-- [ ] ☁️ 60 > [AWS Architecting & Ecosystem](Journey/060/Readme.md)
+- [X] ☁️ 54 > [Advanced Identity](Journey/054/Readme.md)
+- [X] ☁️ 55 > [Meet 10 - EasyStack Part 1](Journey/055/Readme.md)
+- [X] ☁️ 56 > [Meet 11 - EasyStack Part 2](Journey/056/Readme.md)
+- [X] ☁️ 57 > [Other AWS Services Part 1](Journey/057/Readme.md)
+- [X] ☁️ 58 > [Other AWS Services Part 2](Journey/058/Readme.md)
+- [X] ☁️ 59 > [Other AWS Services Part 3](Journey/059/Readme.md)
+- [X] ☁️ 60 > [AWS Architecting & Ecosystem Part 1](Journey/060/Readme.md)
 
 ## Stumbling through the caves
 
-- [ ] ☁️ 61 > [Pillars Well Architected Framework Part 1](Journey/061/Readme.md)
-- [ ] ☁️ 62 > [Pillars Well Architected Framework Part 2](Journey/062/Readme.md)
-- [ ] ☁️ 63 > [](Journey/063/Readme.md)
+- [X] ☁️ 61 > [Pillars Well Architected Framework Part 1](Journey/061/Readme.md)
+- [X] ☁️ 62 > [Pillars Well Architected Framework Part 2](Journey/062/Readme.md)
+- [X] ☁️ 63 > [AWS Architecting & Ecosystem Part 2](Journey/063/Readme.md)
 - [ ] ☁️ 64 > [](Journey/064/Readme.md)
 - [ ] ☁️ 65 > [](Journey/065/Readme.md)
 - [ ] ☁️ 66 > [](Journey/066/Readme.md)
