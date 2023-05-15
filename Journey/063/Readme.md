@@ -1,3 +1,17 @@
+#  AWS Architecting & Ecosystem Part 2
+
+
+## Introduction
+
+
+- AWS Well-Architected Tool
+- AWS Right Sizing
+- AWS Ecosystem – Free resources
+
+
+## Cloud Research
+
+
 ### #1. AWS Well-Architected Tool
 
 
