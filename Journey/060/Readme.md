@@ -1,52 +1,34 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
-
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
+- Well Architected Framework (General Guiding Principles)
+- AWS Cloud Best Practices – Design Principles
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+### #1. Well Architected Framework (General Guiding Principles)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+- Stop guessing your capacity needs
+- Test systems at production scale
+- Automate to make architectural experimentation easier
+- Allow for evolutionary architectures (design based on changing requirements)
+- Drive architectures using data
+- Improve through game days, simulate applications for flash sale days
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
+### #2. AWS Cloud Best Practices – Design Principles
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+- Scalability: vertical & horizontal
+- Disposable Resources: servers should be disposable & easily configured
+- Automation: Serverless, Infrastructure as a Service, Auto Scaling
+- Loose Coupling:
+    - Monolith are applications that do more and more over time, become bigger
+    - Break it down into smaller, loosely coupled components
+    - A change or a failure in one component should not cascade to other components
+- Services, not Servers:
+    - Don’t use just EC2
+    - Use managed services, databases, serverless, etc !
