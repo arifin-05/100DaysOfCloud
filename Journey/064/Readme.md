@@ -1,52 +1,49 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# AWS Architecting & Ecosystem Part 3
 
-# New post title here
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
+- AWS Marketplace
+- AWS Training
+- AWS Professional Services & Partner Network
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+### #1. AWS Marketplace
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+Digital catalog with thousands of software listings from independent software vendors (3rd party).If you buy through the AWS Marketplace it goes into your AWS bill and you can sell your own solutions on the AWS Marketplace
 
-![Screenshot](https://via.placeholder.com/500x300)
+Example :
 
-### Step 1 — Summary of Step
+- Custom AMI (custom OS, firewalls, technical solutions…)
+- CloudFormation templates
+- Software as a Service
+- Containers
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
+### #2. AWS Training
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-## ☁️ Cloud Outcome
+AWS Academy helps universities teach AWS and your favorite online teacher.Teaching you all about AWS Certifications and more!
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+- AWS Digital (online) and Classroom Training (in-person or virtual)
+- AWS Private Training (for your organization)
+- Training and Certification for the U.S Government
+- Training and Certification for the Enterprise
 
-## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+### #3. AWS Professional Services & Partner Network
 
-## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+The AWS Professional Services organization is a global team of experts,they work alongside your team and a chosen member of the APN (AWS Partner Network)
 
-[link](link)
+- APN Technology Partners: providing hardware, connectivity, and software
+- APN Consulting Partners: professional services firm to help build on AWS
+- APN Training Partners: find who can help you learn AWS
+- AWS Competency Program: AWS Competencies are granted to APN Partners who have demonstrated technical proficiency and proven customer success in specialized solution areas.
+- AWS Navigate Program: help Partners become better Partners
+
