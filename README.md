@@ -110,7 +110,7 @@ Support (Part 4)](Journey/053/Readme.md)
 ## Stumbling through the caves
 
 - [ ] ☁️ 61 > [Pillars Well Architected Framework Part 1](Journey/061/Readme.md)
-- [ ] ☁️ 62 > [](Journey/062/Readme.md)
+- [ ] ☁️ 62 > [Pillars Well Architected Framework Part 2](Journey/062/Readme.md)
 - [ ] ☁️ 63 > [](Journey/063/Readme.md)
 - [ ] ☁️ 64 > [](Journey/064/Readme.md)
 - [ ] ☁️ 65 > [](Journey/065/Readme.md)
