@@ -1,52 +1,36 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# AWS Architecting & Ecosystem Part 4
 
-# New post title here
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
+- AWS Knowledge Center
+- AWS IQ
+- AWS Managed Service (AMS)
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+### #1. 
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+Contains the most frequent & common questions and requests,available at link
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
+### #2. 
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
+Quickly find professional help for your AWS projects,engage and pay AWS Certified 3rd party experts for on-demand project work.Video-conferencing, contract management, secure collaboration, integrated billing
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-## ☁️ Cloud Outcome
+### #3. 
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
 
-## Next Steps
+AWS Managed Services is actually a team of people who will provide you with infrastructure and application support on AWS.They run 24/7 and 365 days a year and they really help you just get started in the cloud and worry about other things and how to run the cloud itself.
 
-✍️ Describe what you think you think you want to do next.
+- What the AWS team will do is manage and operate your infrastructure for security, reliability, and availability.
+- Help organizations upload routine maintenance tasks and focus on their business objectives.
+- Fully managed service and AWS is going to handle many common activities such as exchange requests, monitoring, patch management,security, and backup services.
+- Implement best practices and they will maintain your infrastructure to reduce your operational overhead and risk.
 
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
