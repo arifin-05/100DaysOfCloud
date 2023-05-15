@@ -12,19 +12,19 @@
 ## Cloud Research
 
 
-### #1. 
+### #1. AWS Knowledge Center
 
 
 Contains the most frequent & common questions and requests,available at link
 
 
-### #2. 
+### #2. AWS IQ
 
 
 Quickly find professional help for your AWS projects,engage and pay AWS Certified 3rd party experts for on-demand project work.Video-conferencing, contract management, secure collaboration, integrated billing
 
 
-### #3. 
+### #3. AWS Managed Service (AMS)
 
 
 AWS Managed Services is actually a team of people who will provide you with infrastructure and application support on AWS.They run 24/7 and 365 days a year and they really help you just get started in the cloud and worry about other things and how to run the cloud itself.
